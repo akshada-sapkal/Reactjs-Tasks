@@ -1,0 +1,63 @@
+.container h1 {
+  text-align: center;
+  color: #2e7d32; /* deep green */
+  font-size: 2rem;
+  margin: 20px 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 1px 1px 2px #ccc;
+  border-bottom: 2px solid #c8e6c9;
+  padding-bottom: 10px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  background: #f5f7fa;
+}
+
+
+.form-container {
+  background-color: #ffffff;
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+.form-container input[type="text"],.form-container input[type="email"],.form-container input[type="date"],
+.form-container select {
+  width: 100%;
+  padding: 10px 12px;
+  margin-top: 4px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.form-container input[type="radio"],
+.form-container input[type="checkbox"] {
+  margin-right: 8px;
+  margin-left: 12px;
+}
+
+.form-container div {
+  margin-bottom: 1.2rem;
+}
+
+.form-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+  background-color: #005fa3;
+}
