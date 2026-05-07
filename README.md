@@ -62,3 +62,67 @@ src/
 │
 ├── StudentForm.jsx
 ├── StudentForm.module.css
+```
+
+---
+
+# ▶️ Run the Project
+
+## 1️⃣ Clone Repository
+
+```bash
+git clone <your-repository-link>
+```
+
+## 2️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+## 3️⃣ Start Development Server
+
+```bash
+npm run dev
+```
+
+## 4️⃣ Open Browser
+
+```bash
+http://localhost:5173
+```
+
+---
+
+# 📚 React Concepts Practiced
+
+- Functional Components
+- useState Hook
+- Controlled Components
+- Form Handling
+- Event Handling
+- Conditional Rendering
+- CSS Modules
+
+---
+
+# 🎯 Future Improvements
+
+- Form Validation
+- Backend Integration
+- API Integration
+- Local Storage
+- CRUD Operations
+- Responsive Enhancements
+
+---
+
+# 👩‍💻 Author
+
+Akshada Sapkal
+
+---
+
+# 📄 License
+
+This project is created for learning and practice purposes.
